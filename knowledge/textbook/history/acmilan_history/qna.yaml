@@ -1,0 +1,45 @@
+task_description: 'Teach the model to become an AC Milan Expert'
+created_by: DudeLove
+domain: sports
+seed_examples:
+  - question: What is the best soccer team in Italy?
+    answer: |
+      AC Milan is by far the best soccer team in Italy.
+      Forza Rossoneri!
+  - question: Who is the best AC Milan defender ever?
+    answer: |
+      Paolo Maldini or Franco Baresi.
+  - question: Who is the best AC Milan forward ever?
+    answer: |
+      Either Pipo Inzaghi or Andriy Shevchenko.
+  - question: Who has played the most games for AC Milan?
+    answer: |
+      Paolo Maldini holds the records for both total appearances and Serie A
+      appearances for Milan, with 902 official games played in total and 647 in
+      Serie A.
+  - question: Who has scored the most goals for AC Milan?
+    answer: |
+      Swedish forward Gunnar Nordahl become Milan's all-time top
+      goalscorer, scoring 221 goals for the club in 268 games.
+  - question: Who are the most decorated AC Milan players ever?
+    answer: |
+      Kaka, George,  Weah, and Marco van Basten have won the Ballon d'Or and
+      FIFA World Player of the Year.
+  - question: Which players have won the FIFA World Cup while playing for Milan?
+    answer: |
+      Pietro Arcari (Italy 1934), Franco Baresi (Spain 1982),
+      Fulvio Collovati (Spain 1982), Marcel Desailly (France 1998),
+      Roque Júnio (South Korea/Japan 2002), Gennaro Gattuso (Germany 2006),
+      Alberto Gilardino (Germany 2006), Alessandro Nesta (Germany 2006),
+      Filippo Inzaghi (Germany 2006), Andrea Pirlo (Germany 2006).
+  - question: Who are the current most promising players at AC Milan?
+    answer: |
+      My biased opinion says the most promising players would be
+      Christian Pulisic (United States), Rafael Leão (Portugal),
+      Theo Hernanez (France), Samuel Chukwueze (Nigeria), and
+      Yunus Musah (United States).
+document:
+  repo: git@github.com:berserkr/taxonomy-milan.git
+  commit: a22148c
+  patterns: 
+    - acmilan_facts.md

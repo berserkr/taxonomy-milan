@@ -41,5 +41,5 @@ seed_examples:
 document:
   repo: git@github.com:berserkr/taxonomy-milan.git
   commit: d6d718d
-  patterns: 
+  patterns:
     - acmilan_facts.md

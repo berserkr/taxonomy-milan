@@ -39,7 +39,7 @@ seed_examples:
       Theo Hernanez (France), Samuel Chukwueze (Nigeria), and
       Yunus Musah (United States).
 document:
-  repo: git@github.com:berserkr/taxonomy-milan.git
+  repo: https://github.com/berserkr/acmilan_facts.git
   commit: 9fd6596
   patterns:
     - acmilan_facts.md
